@@ -1,3 +1,7 @@
+## v1 (versionCode 41)
+
+- k_battle 修复版：见 K_battle 提交记录。
+
 # uv2800 更新日志
 
 ## v11 (versionCode 34)
