@@ -1,3 +1,15 @@
+## v1.4 (versionCode 49)
+
+
+- 完成 16 项与 opbatt 对齐计划：SOC×温度曲线投票 + 温度档线性插值（默认关）、线材超驰 cable_override、ko 状态快照、真实 SOC（bind-mount chip_soc）+ set-real-soc 开关、UFCS 合并。
+
+- 抬流（curr_override）补齐 WebUI 控件：ChargeCard 开关 + 目标输入；开启需先打开过压保护（OVP 门禁）；按机型限幅（X8U 13700 / Ace 10900）；0 = 跟随快充目标。
+
+- service.sh 重放诚实化：写后读回、未生效明确标注；webui.sh 文案诚实化扫改；曲线投票协议切换先清旧票，vote_override 补 OVP 门禁与机型限幅。
+
+- 本版经完整本地测试与独立复核（Vue 套件 667/0、run_all 全绿、包内容对冻结清单逐项核对），尚未真机验证。
+
+
 ## v1.3 (versionCode 48)
 
 
